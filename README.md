@@ -76,3 +76,81 @@ There are **5 main types** of networks:
 | MAN | City area | City-wide ISP |
 | WAN | Global | Internet |
 
+# 🌐 IP Address Basics (IPv4, Public, Private, Localhost)
+
+An **IP Address (Internet Protocol Address)** is a unique number given to every device in a network so it can **communicate and transfer data**.
+
+---
+
+## 🔢 1. IPv4 (Internet Protocol Version 4)
+
+- IPv4 is the **most commonly used** version of IP.  
+ 
+- Range: **0.0.0.0 to 255.255.255.255**  
+ 
+
+**Example IPv4 address:**  
+`192.168.1.10`
+
+**Format:**  
+`A.B.C.D` (each section = 0 to 255)
+
+---
+
+## 🏠 2. Private IP Address
+
+Private IPs are used **inside local networks** (home/office).  
+They **cannot** be accessed directly from the internet.
+
+**Common Private IP Ranges:**
+
+| Class | Private Range |
+|--------|----------------|
+| Class A | 10.0.0.0 – 10.255.255.255 |
+| Class B | 172.16.0.0 – 172.31.255.255 |
+| Class C | 192.168.0.0 – 192.168.255.255 |
+
+**Example:**  
+`192.168.1.5` (your Wi-Fi PC or phone)
+
+---
+
+## 🌍 3. Public IP Address
+
+Public IP is provided by your **Internet Service Provider (ISP)**.  
+It is used to communicate with devices **across the internet**.
+
+- Unique globally  
+- Websites, servers, routers use it  
+- Visible to the outside world
+
+**Example:**  
+`103.45.67.89`
+
+> Your home router has a **public IP**, but the devices inside your home get **private IPs**.
+
+---
+
+## 🔁 4. Localhost (127.0.0.1)
+
+`127.0.0.1` is called **localhost**.  
+It refers to **your own computer**.
+
+- Used for testing servers locally  
+- No internet required  
+- Always points to the same device
+
+**Example:**  
+Typing `http://localhost:3000` runs your local project.
+
+---
+
+## ✔ Summary
+
+| Type | Example | Used For |
+|------|---------|----------|
+| IPv4 | 192.168.1.10 | Standard IP format |
+| Private IP | 192.168.0.10 | Devices inside home/office |
+| Public IP | 103.45.67.89 | Internet communication |
+| Localhost | 127.0.0.1 | Testing on same machine |
+
