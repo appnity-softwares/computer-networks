@@ -153,4 +153,109 @@ Typing `http://localhost:3000` runs your local project.
 | Private IP | 192.168.0.10 | Devices inside home/office |
 | Public IP | 103.45.67.89 | Internet communication |
 | Localhost | 127.0.0.1 | Testing on same machine |
+# 📘 Network Topologies – Beginner Notes
+
+## 1. What is Network Topology?
+Network topology refers to the **physical or logical arrangement** of computers, cables, and network devices.  
+It defines **how devices are connected** and **how data flows** in a network.
+
+Topologies affect:
+- Network speed  
+- Performance  
+- Reliability  
+- Cost  
+- Ease of management  
+
+---
+
+## 2. Types of Network Topologies
+
+### 🟦 1. Bus Topology
+- All devices share a **single central cable** (bus).
+- Simple and inexpensive for small networks.
+
+**Performance Impact:**
+- Slow when traffic is high.
+- If the bus cable fails, the entire network stops.
+
+---
+
+### ⭐ 2. Star Topology
+- Every device connects to a **central device** (switch/hub).
+- Most common in modern networks.
+
+**Performance Impact:**
+- Fast due to dedicated connections.
+- If the central device fails, the whole network goes down.
+
+---
+
+### 🔴 3. Ring Topology
+- Devices are connected in a **loop** (ring).
+- Data flows in one direction around the ring.
+
+**Performance Impact:**
+- Predictable performance.
+- Failure of one device breaks the entire ring.
+
+---
+
+### 🟢 4. Mesh Topology
+- Each device connects to **multiple devices**.
+- Used in critical and large networks.
+
+**Performance Impact:**
+- Very high reliability and speed.
+- Failure of one link does not affect the network.
+- Very costly due to many cables.
+
+---
+
+### 🟡 5. Tree (Hierarchical) Topology
+- A combination of multiple star topologies in a **tree structure**.
+- Suitable for large organizations.
+
+**Performance Impact:**
+- Easy to expand and manage.
+- Failure of a main node affects all devices in its branch.
+
+---
+
+### 🟣 6. Hybrid Topology
+- Mix of multiple topologies (e.g., Star + Mesh).
+- Highly flexible and scalable.
+
+**Performance Impact:**
+- High performance and reliability.
+- More complex and expensive.
+
+---
+
+## 3. Quick Comparison Table
+
+| Topology | Cost | Speed | Reliability | Best Use |
+|----------|------|--------|-------------|----------|
+| **Bus** | Low | Low | Low | Small networks |
+| **Star** | Medium | High | Medium | Homes & offices |
+| **Ring** | Medium | Medium | Low | Legacy networks |
+| **Mesh** | High | Very High | Very High | Backbone, telecom |
+| **Tree** | Medium | High | Medium | Large organizations |
+| **Hybrid** | High | High | High | Enterprise networks |
+
+---
+
+## 4. Summary for Beginners
+- **Star Topology** → Fast, reliable, and most widely used.  
+- **Mesh Topology** → Best performance but expensive.  
+- **Bus Topology** → Outdated and slow.  
+- **Ring Topology** → Rare today.  
+- **Tree & Hybrid** → Ideal for large, scalable networks.
+
+---
+
+If you want, I can also:
+✅ Add diagrams  
+✅ Make a PDF  
+✅ Convert into a GitHub wiki page  
+Just tell me!  
 
